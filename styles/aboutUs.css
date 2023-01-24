@@ -1,0 +1,33 @@
+.mainContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.iconSeparator {
+  width: 30vw;
+  /* align-self: flex-start; */
+  /* margin-left: 5vw; */
+  margin-top: 10px;
+  border-color: var(--navGrey);
+}
+.mainContent a {
+  text-decoration: none;
+}
+.descrbeText {
+  list-style-type: decimal;
+  padding: 5px;
+}
+.descrbeText {
+  align-self: flex-start;
+  margin-left: 5vw;
+  margin-top: 50px;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 160px;
+  color: var(--textGrey);
+}
+.descrbeText ul {
+  padding-left: 30px;
+}
