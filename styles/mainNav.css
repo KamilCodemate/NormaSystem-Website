@@ -1,0 +1,44 @@
+.mainNav {
+  width: 100%;
+  background-color: var(--navGrey);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mainNavLogoContainer {
+  height: 100%;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5vw;
+}
+.MainNavLogo {
+  height: 50px;
+}
+.mainNavLinksContainer {
+  height: 100%;
+  width: fit-content;
+  margin-right: 5vw;
+}
+.mainNavLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  height: 100%;
+  gap: 50px;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+.mainNavLinks a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.6s;
+}
+.mainNavLinks a:hover {
+  color: var(--mainGreenDarker);
+  cursor: pointer;
+}
