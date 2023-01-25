@@ -1,0 +1,51 @@
+.mainContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.iconSeparator {
+  width: 30vw;
+
+  margin-top: 10px;
+  border-color: var(--navGrey);
+}
+.mainContent a {
+  text-decoration: none;
+}
+.singleClient {
+  width: 100%;
+  border: 1px solid black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  transition: all 0.6s;
+}
+.singleClient:hover {
+  background-color: rgba(0, 128, 0, 0.254);
+  color: black;
+  cursor: pointer;
+}
+
+.singleClient ul {
+  position: relative;
+  left: 20px;
+  font-size: 15px;
+  font-style: italic;
+  margin: 10px 20px 0 0;
+}
+.clients {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+  gap: 15%;
+  width: 100%;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  font-family: 'Poppins', sans-serif;
+  color: var(--textGrey);
+}
