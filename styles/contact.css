@@ -117,3 +117,31 @@ legend {
   justify-content: flex-start;
   width: 100%;
 }
+
+@media only screen and (max-width: 1000px) {
+  .columns {
+    display: flex;
+    flex-direction: column;
+  }
+  .columns > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  .firstColumn p {
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  .secondColumn {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 850px) {
+  legend {
+    width: fit-content;
+  }
+  .secondColumn form {
+    width: 90vw;
+  }
+}

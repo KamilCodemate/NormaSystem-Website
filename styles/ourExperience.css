@@ -38,6 +38,17 @@
 .columns {
   display: grid;
   grid-template-columns: repeat(2, 50%);
-  gap: 200px;
+  gap: 15%;
   padding-top: 50px;
+}
+@media only screen and (max-width: 1640px) {
+  .columns {
+    gap: 5%;
+  }
+}
+@media only screen and (max-width: 1380px) {
+  .columns {
+    display: flex;
+    flex-direction: column;
+  }
 }
