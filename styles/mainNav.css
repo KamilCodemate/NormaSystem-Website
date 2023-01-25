@@ -5,6 +5,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 100;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 .mainNavLogoContainer {
   height: 100%;
@@ -41,4 +45,62 @@
 .mainNavLinks a:hover {
   color: var(--mainGreenDarker);
   cursor: pointer;
+}
+.fa-bars {
+  font-size: 35px;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  display: none;
+  z-index: 101;
+}
+
+@media only screen and (max-width: 1250px) {
+  .fa-bars {
+    display: block;
+  }
+  .mainNav {
+    height: 100vh;
+    width: 50%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    transition: translateY, 0.3s;
+    transform: translateX(-100%);
+    margin: 0;
+    padding: 0;
+  }
+
+  .mainNavLogoContainer {
+    padding: 0;
+    margin: 0;
+  }
+  .mainNavLinksContainer ul {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+  .hero {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -80px;
+  }
+  .fa-bars:hover {
+    cursor: pointer;
+  }
+  .menuIconContainer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .mainNav.active {
+    transform: translateX(0%);
+  }
+}
+@media only screen and (max-width: 690px) {
+  .mainNav {
+    width: 100%;
+  }
 }
