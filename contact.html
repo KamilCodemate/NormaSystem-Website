@@ -1,111 +1,126 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="./styles/main.css" />
-    <link rel="stylesheet" href="./styles/mainNav.css" />
-    <link rel="stylesheet" href="./styles/icon.css" />
-    <link rel="stylesheet" href="./styles/footer.css" />
-    <link rel="stylesheet" href="./styles/contact.css" />
 
-    <title>Norma System | O nas</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="mainNav">
-        <div class="mainNavLogoContainer">
-          <img src="./img/logo.png" alt="logo" class="MainNavLogo" />
-        </div>
-        <div class="mainNavLinksContainer">
-          <ul class="mainNavLinks">
-            <a href="#"><li>Kim jesteśmy?</li></a>
-            <a href="#"><li>Nasze doświadczenie</li></a>
-            <a href="#"><li>Z kim współpracowaliśmy?</li></a>
-            <a href="#"><li>Kontakt</li></a>
-          </ul>
-        </div>
-      </div>
-      <div class="mainContent">
-        <a href="#"
-          ><div class="menuIconContainer">
-            <img src="./img/menu_icon4.png" alt="icon4" class="icoImage" />
-            <div class="iconText">
-              <span class="icoNO">04</span>
-              <span class="icoDesc">Napisz<br />Do nas</span>
-            </div>
-          </div>
-        </a>
-        <hr class="iconSeparator" />
-        <div class="columns">
-          <div class="firstColumn">
-            <p
-              >Adres korespondencyjny: <br />
-              Norma System <br />
-              41-400 Mysłowice <br />
-              ul. Armii Krajowej 44b/25 <br /><br />
-              Adres e-mail: <br />
-              biuro@normasystem.pl<br /><br />
-              Telefon: <br />
-              + 48 606 306 233
-            </p>
-          </div>
-          <div class="secondColumn">
-            <form>
-              <fieldset>
-                <legend>Formularz kontaktowy</legend>
-                <label>Imię i nazwisko <span>*</span></label>
-                <input type="text" name="name" required /><br /><br />
-                <label>Adres e-mail <span>*</span></label>
-                <input type="email" name="email" required /><br /><br />
-                <label>Telefon</label>
-                <input type="tel" name="tel" /><br /><br />
-                <label>Treść <span>*</span></label>
-                <textarea name="message" cols="30" rows="10" required></textarea><br /><br />
-                <br />
+<head>
+ <meta charset="UTF-8" />
+ <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+  integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link rel="stylesheet" href="./styles/main.css" />
+ <link rel="stylesheet" href="./styles/mainNav.css" />
+ <link rel="stylesheet" href="./styles/icon.css" />
+ <link rel="stylesheet" href="./styles/footer.css" />
+ <link rel="stylesheet" href="./styles/contact.css" />
 
-                <h2>Adnotacja prawna</h2><br />
-                <div class="policy">
-                  <div> <input type="checkbox" required /></div>
-                  <div class="policyDescribe"
-                    ><label class="policyText"> Przeczytałem/am, zrozumiałem/am i akceptuję zapisy polityki prywatności <span>*</span> </label>
-                  </div></div
-                ><br /><br />
-                <div class="otherFormElements">
-                  <div>
-                    <input type="submit" value="Wyślij" />
-                  </div>
-                  <div
-                    ><label><span>*</span> - pole obowiązkowe</label></div
-                  >
-                </div>
-              </fieldset>
-            </form>
-          </div>
-        </div>
-      </div>
-      <div class="footer">
-        <div class="copyrightContainer"> <span class="copyRightText">&copy; 2023 Norma System </span><span class="copyRightSeparator">|</span> </div>
-        <div class="footerLinks">
-          <ul class="mainNavLinks footerLinks">
-            <a href="#"><li>Kim jesteśmy?</li></a>
-            <a href="#"><li>Nasze doświadczenie</li></a>
-            <a href="#"><li>Z kim współpracowaliśmy?</li></a>
-            <a href="#"><li>Kontakt</li></a>
-            <a href="#"><li>Strona główna</li></a>
-          </ul>
-        </div>
-      </div>
+ <title>Norma System | O nas</title>
+</head>
+
+<body>
+ <div class="container">
+  <div class="mainNav">
+   <div class="mainNavLogoContainer">
+    <img src="./img/logo.png" alt="logo" class="MainNavLogo" />
+   </div>
+   <div class="mainNavLinksContainer">
+    <ul class="mainNavLinks">
+     <a href="#">
+      <li>Kim jesteśmy?</li>
+     </a>
+     <a href="#">
+      <li>Nasze doświadczenie</li>
+     </a>
+     <a href="#">
+      <li>Z kim współpracowaliśmy?</li>
+     </a>
+     <a href="#">
+      <li>Kontakt</li>
+     </a>
+    </ul>
+   </div>
+  </div>
+  <div class="mainContent">
+   <a href="#">
+    <div class="menuIconContainer">
+     <img src="./img/menu_icon4.png" alt="icon4" class="icoImage" />
+     <div class="iconText">
+      <span class="icoNO">04</span>
+      <span class="icoDesc">Napisz<br />Do nas</span>
+     </div>
     </div>
-    <i class="fa-solid fa-bars"></i>
-    <script src="./scripts/switchNav.js"></script>
-  </body>
+   </a>
+   <hr class="iconSeparator" />
+   <div class="columns">
+    <div class="firstColumn">
+     <p>Adres korespondencyjny: <br />
+      Norma System <br />
+      41-400 Mysłowice <br />
+      ul. Armii Krajowej 44b/25 <br /><br />
+      Adres e-mail: <br />
+      biuro@normasystem.pl<br /><br />
+      Telefon: <br />
+      + 48 606 306 233
+     </p>
+    </div>
+    <div class="secondColumn">
+     <form action="./php/sendMail.php" method="post">
+      <fieldset>
+       <legend>Formularz kontaktowy</legend>
+       <label>Imię i nazwisko <span>*</span></label>
+       <input type="text" name="name" required /><br /><br />
+       <label>Adres e-mail <span>*</span></label>
+       <input type="email" name="email" required /><br /><br />
+       <label>Telefon</label>
+       <input type="tel" name="tel" /><br /><br />
+       <label>Treść <span>*</span></label>
+       <textarea name="message" cols="30" rows="10" required></textarea><br /><br />
+       <br />
+
+       <h2>Adnotacja prawna</h2><br />
+       <div class="policy">
+        <div> <input type="checkbox" required /></div>
+        <div class="policyDescribe"><label class="policyText"> Przeczytałem/am, zrozumiałem/am i akceptuję zapisy
+          polityki prywatności <span>*</span> </label>
+        </div>
+       </div><br /><br />
+       <div class="otherFormElements">
+        <div>
+         <input type="submit" value="Wyślij" />
+        </div>
+        <div><label><span>*</span> - pole obowiązkowe</label></div>
+       </div>
+      </fieldset>
+     </form>
+    </div>
+   </div>
+  </div>
+  <div class="footer">
+   <div class="copyrightContainer"> <span class="copyRightText">&copy; 2023 Norma System </span><span
+     class="copyRightSeparator">|</span> </div>
+   <div class="footerLinks">
+    <ul class="mainNavLinks footerLinks">
+     <a href="#">
+      <li>Kim jesteśmy?</li>
+     </a>
+     <a href="#">
+      <li>Nasze doświadczenie</li>
+     </a>
+     <a href="#">
+      <li>Z kim współpracowaliśmy?</li>
+     </a>
+     <a href="#">
+      <li>Kontakt</li>
+     </a>
+     <a href="#">
+      <li>Strona główna</li>
+     </a>
+    </ul>
+   </div>
+  </div>
+ </div>
+ <i class="fa-solid fa-bars"></i>
+ <script src="./scripts/switchNav.js"></script>
+</body>
+
 </html>
