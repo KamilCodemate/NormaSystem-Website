@@ -46,7 +46,19 @@
     gap: 5%;
   }
 }
-@media only screen and (max-width: 1380px) {
+@media only screen and (max-width: 1350px) {
+  .descrbeText {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .container {
+    width: 90%;
+  }
+  .columns {
+    gap: 2%;
+  }
+}
+@media only screen and (max-width: 1000px) {
   .columns {
     display: flex;
     flex-direction: column;

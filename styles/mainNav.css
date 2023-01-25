@@ -54,8 +54,33 @@
   display: none;
   z-index: 101;
 }
-
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1300px) {
+  .MainNavLogo {
+    width: 20vw;
+    height: auto;
+  }
+  .mainNavLinks {
+    margin-left: 10px;
+    margin-right: 0;
+    gap: 30px;
+  }
+}
+@media only screen and (max-width: 1090px) {
+  .MainNavLogo {
+    width: 20vw;
+    height: auto;
+  }
+  .mainNavLinks {
+    margin-left: 10px;
+    margin-right: 0;
+    gap: 15px;
+    font-size: 0.9em;
+  }
+  .mainNavLogoContainer {
+    margin-left: 3vw;
+  }
+}
+@media only screen and (max-width: 850px) {
   .fa-bars {
     display: block;
   }

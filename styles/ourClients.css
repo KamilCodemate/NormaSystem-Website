@@ -49,3 +49,10 @@
   font-family: 'Poppins', sans-serif;
   color: var(--textGrey);
 }
+@media only screen and (max-width: 1100px) {
+  .clients {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 4vw 100px 4vw;
+  }
+}
