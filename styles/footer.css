@@ -26,3 +26,20 @@
 .copyRightText {
   font-size: 15px;
 }
+@media only screen and (max-width: 920px) {
+  .footer {
+    min-height: 80px;
+    height: fit-content;
+  }
+  .footerLinks {
+    flex-wrap: wrap;
+  }
+  .copyRightText {
+    white-space: pre-line;
+  }
+}
+@media only screen and (max-width: 875px) {
+  .copyRightSeparator {
+    display: none;
+  }
+}
