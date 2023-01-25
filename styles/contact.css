@@ -1,0 +1,119 @@
+.mainContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.iconSeparator {
+  width: 30vw;
+  /* align-self: flex-start; */
+  /* margin-left: 5vw; */
+  margin-top: 10px;
+  border-color: var(--navGrey);
+}
+.mainContent a {
+  text-decoration: none;
+}
+.columns {
+  margin-top: 60px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  margin-bottom: 200px;
+}
+.firstColumn,
+.secondColumn {
+  display: flex;
+}
+
+.firstColumn {
+  padding-left: 5vw;
+  color: var(--textGrey);
+  font-family: 'Poppins', sans-serif;
+  padding-top: 35px;
+  font-size: 20px;
+}
+.secondColumn {
+  justify-content: flex-end;
+  padding-right: 5vw;
+}
+.secondColumn form {
+  width: 60%;
+}
+.secondColumn form fieldset {
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.secondColumn form input[type='text'],
+.secondColumn form input[type='email'],
+.secondColumn form input[type='tel'] {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid rgb(183, 183, 183);
+}
+.secondColumn form fieldset span {
+  color: red;
+}
+.secondColumn label {
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  color: var(--textGrey);
+}
+.secondColumn form textarea {
+  border-radius: 10px;
+  border: 2px solid rgb(183, 183, 183);
+}
+.secondColumn form input[type='submit'] {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid var(--textGrey);
+  font-weight: 700;
+  font-size: 15px;
+  transition: 0.6s all;
+}
+.secondColumn form input[type='submit']:hover {
+  background-color: var(--mainGreen);
+  cursor: pointer;
+}
+.secondColumn form h2 {
+  font-family: 'Poppins', sans-serif;
+  color: var(--textGrey);
+  font-size: 18px;
+}
+.secondColumn form input[type='checkbox'] {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.policy {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 15px;
+}
+.otherFormElements {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+legend {
+  font-size: 20px;
+  color: var(--textGrey);
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  display: inline-block;
+  padding: 10px;
+}
+.policyDescribe {
+  display: flex;
+
+  justify-content: flex-start;
+  width: 100%;
+}
