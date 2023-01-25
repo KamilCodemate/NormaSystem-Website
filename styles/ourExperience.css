@@ -36,8 +36,9 @@
   padding-left: 30px;
 }
 .columns {
+  width: 100%;
   display: grid;
-  grid-template-columns: repeat(2, 50%);
+  grid-template-columns: repeat(2, 1fr);
   gap: 15%;
   padding-top: 20px;
 }
@@ -71,4 +72,9 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+.firstColumn,
+.secondColumn {
+  width: fit-content;
+  min-width: 40%;
 }
