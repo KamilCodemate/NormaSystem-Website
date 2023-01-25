@@ -9,6 +9,7 @@
   justify-content: space-between;
   color: var(--textGrey);
   font-family: 'Poppins', sans-serif;
+  min-height: 80px !important;
 }
 .footerLinks {
   gap: 20px;
@@ -42,4 +43,7 @@
   .copyRightSeparator {
     display: none;
   }
+}
+.footer {
+  min-height: 80px !important;
 }

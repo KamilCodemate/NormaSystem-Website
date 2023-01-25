@@ -33,7 +33,7 @@
   color: var(--textGrey);
   font-family: 'Poppins', sans-serif;
   padding-top: 35px;
-  font-size: 20px;
+  font-size: 15px;
 }
 .secondColumn {
   justify-content: flex-end;
@@ -60,7 +60,7 @@
   color: red;
 }
 .secondColumn label {
-  font-size: 17px;
+  font-size: 15px;
   font-family: 'Poppins', sans-serif;
   color: var(--textGrey);
 }
@@ -74,7 +74,7 @@
   border-radius: 10px;
   border: 1px solid var(--textGrey);
   font-weight: 700;
-  font-size: 15px;
+  font-size: 13px;
   transition: 0.6s all;
 }
 .secondColumn form input[type='submit']:hover {
@@ -84,7 +84,7 @@
 .secondColumn form h2 {
   font-family: 'Poppins', sans-serif;
   color: var(--textGrey);
-  font-size: 18px;
+  font-size: 15px;
 }
 .secondColumn form input[type='checkbox'] {
   width: 25px;
@@ -144,4 +144,12 @@ legend {
   .secondColumn form {
     width: 90vw;
   }
+}
+.icoImage {
+  width: 60%;
+}
+.menuIconContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }

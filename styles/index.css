@@ -8,3 +8,7 @@
 .hero a {
   text-decoration: none;
 }
+.container {
+  min-height: 700px;
+  height: 100vh;
+}

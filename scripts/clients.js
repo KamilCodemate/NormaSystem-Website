@@ -165,7 +165,7 @@ const companies = [
     services: ['zaopatrzenie biur / biuroserwis', 'hurtowa sprzedaż materiałów biurowych'],
   },
   {
-    name: 'WIELKOPOLSKA TECHNIKA POWIERZCHNIOWA',
+    name: 'WTP',
     location: 'Dopiewo',
     services: [
       'termiczne usuwanie powłok lakierniczych z powierzchni',
@@ -249,8 +249,8 @@ const companies = [
     services: ['produkcja wyposażenia sklepów'],
   },
   {
-    name: 'Bielskie Przedsiębiorstwo Budownictwa Przemysłowego',
-    location: '',
+    name: 'BPBP',
+    location: 'Bielsko Biała',
     services: [
       'budownictwo przemysłowe',
       'budownictwo mieszkaniowe',
@@ -363,7 +363,7 @@ const companies = [
   },
   {
     name: 'JAGIELOŃSKIE CENTRUM INNOWACJI',
-    location: '',
+    location: 'Kraków',
     services: ['badania laboratoryjne', 'badania kliniczne'],
   },
   {

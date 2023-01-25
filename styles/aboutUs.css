@@ -31,3 +31,11 @@
 .descrbeText ul {
   padding-left: 30px;
 }
+.icoImage {
+  width: 60%;
+}
+.menuIconContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
