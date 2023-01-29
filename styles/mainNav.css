@@ -84,6 +84,9 @@
   .fa-bars {
     display: block;
   }
+  .MainNavLogo {
+    width: 70%;
+  }
   .mainNav {
     height: 100vh;
     width: 50%;
